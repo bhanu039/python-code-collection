@@ -1,0 +1,24 @@
+from array import *
+b=0
+c=0
+a=int(input("enter the length of the array"))
+arr=array('i',[])
+arr1=array('i',[])
+for i in range(a):
+      n=int(input("enter the values"+str(i+1)+":"))
+      arr.append(n)
+  
+arr1=sorted(arr)  
+print(arr1)
+b=arr1[0]
+c=arr1[1]-arr1[0]
+for i in range(a):
+    if b!=arr1[i]:
+        print(b)
+        break
+    else:
+        b+=c
+if b!=arr1[i]:
+        print(b)    
+    
+    
