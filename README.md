@@ -20,6 +20,6 @@ Make sure you have Python 3.x installed. Use `pip install -r requirements.txt` t
 Clone the repository and run any script of interest:
 
 ```bash
-git clone https://github.com/yourusername/python-code-collection.git
+git clone https://github.com/bhanu039/python-code-collection.git
 cd python-code-collection
 python script_name.py
